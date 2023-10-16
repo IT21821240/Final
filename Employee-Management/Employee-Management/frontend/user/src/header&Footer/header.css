@@ -1,0 +1,43 @@
+/* Increase the height of the header */
+header {
+    background-color: #fdfdfd;
+    color: #0f247b;
+    padding: 35px 70px; /* Adjust the padding for more height */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #00334e; 
+  }
+  
+  h1 {
+    font-size: 30px; /* Increase the font size for the header */
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-link {
+    text-decoration: none;
+    color:  #0f247b;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 40px; /* Reduce the margin for the "Product" link */
+  }
+  
+  /* Style the profile and cart icons */
+  .fa-user{
+    color:  #0f247b; /* Set the color to white */
+    font-size: 40px; /* Adjust the font size as needed */
+    margin-right: 20px; /* Add margin to separate the icons */
+  } 
+  
+  .fa-shopping-cart {
+    color:  #0f247b; /* Set the color to white */
+    font-size: 40px; /* Adjust the font size as needed */
+    margin-right: 40px; /* Add margin to separate the icons */
+  }
+   
